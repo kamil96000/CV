@@ -1,0 +1,149 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2012 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\usepackage[utf8]{inputenc}  
+\usepackage{polski}
+\usepackage[french]{babel}
+\usepackage[absolute]{textpos}
+\setlength{\TPHorizModule}{1mm}
+\setlength{\TPVertModule}{1mm}
+\usepackage{blindtext} % Just to have some dummy text
+\moderncvtheme[purple]{classic} 
+\nopagenumbers{}                             
+\AtBeginDocument{\recomputelengths}
+
+
+%\renewcommand{\listitemsymbol}{-~}  % change the symbol for lists
+% color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+
+% adjust the page margins
+\usepackage[top=1.1cm, bottom=1.1cm, left=2cm, right=2cm]{geometry}
+% Largeur de la colonne pour les dates
+\setlength{\hintscolumnwidth}{2.9cm}
+
+%\setlength{\makecvtitlenamewidth}{9cm}      % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\firstname{inż. Kamil}
+\familyname{Rozicki}
+                        
+\address{ul. Sienna 66/38}{00-825 Warszawa}   
+\mobile{+ 48 516 409 275}                   
+%\phone{+33(0)4.76.24.10.36}       
+\email{kamil96000@gmail.com} 
+
+\photo[110pt][0.3pt]{foto.jpg}                  % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\title{Politechnika Warszawska, Wydział Fizyki}
+
+\AfterPreamble{\hypersetup{
+  pdfauthor={Kamil Rozicki},
+  pdftitle={CV Kamila Rozickiego},
+  pdfsubject={CV},
+  urlcolor=purple,
+}}
+
+\begin{document}
+\makecvtitle
+
+\section{Profil zawodowy}
+Absolwent finansów i bankowości oraz metod ilościowych i systemów informacyjnych w SGH z 5-letnim doświadczeniem w statystyce i bankowości. Szeroka wiedza z zakresu obsługi oprogramowania statystycznego (Certyfikat SPSS Technology Expert, kurs R na WNE UW), zaawansowane umiejętności w obsłudze Excel i Access, łącznie z VBA i SQL. Biegła znajomość języka angielskiego oraz niemieckiego.
+
+\section{Doświadczenie zawodowe}
+ 
+ \cventry{IX 2019 – III 2020}{Profimed Sp. z o.o.}{{Sprzedawca}{}}{}{}{\begin{itemize}
+    \item Aktywna sprzedaż produktów i urządzeń do higieny jamy ustnej,
+    \item Fachowe doradztwo w zakresie podstawej higieny i profilaktyki jamy ustnej i uzębienia,
+    \item Sporządzanie zamówień,'
+    \item Obsługa kasy fiskalnej i programu SUBIEKT,
+    \item Sporządzenia miesięcznych raportów kasowych i sprzedaży,
+    \item Dbałość o porządek na stanowisku pracy,
+ \end{itemize}}  % arguments 3 to 6 can be left empty
+
+\cventry{IX 2019}{Instytut Psychiatrii i Neurologii w Warszawie}{{Praktykant}{}}{}{}{\begin{itemize}
+		\item Zapoznanie się ze środowiskiem pracy w Pracowni Badania Snu,
+		\item Uczestnicznie w badania EEG pacjentów,
+		\item Praca z badaniami pacjentów w systemie Grass,
+		\item Opracowywanie własnego skryptu do operacji na plikach EDF+ w środowsisku MATLAB (import/eksport badań, dostęp do poszczególnych sygnałów),
+\end{itemize}}  % arguments 3 to 6 can be left empty
+
+ \cventry{VII 2019 -- IX 2019}{Lodomania}{{kelner}{}}{}{}{\begin{itemize}
+    \item Obsługa kelnerska,
+    \item Obsług kasy fiskalnej i systemu POS.
+ \end{itemize}}  % arguments 3 to 6 can be left empty
+
+
+ \cventry{VIII 2018 -- IX 2018}{Centralne Laboratorium Ochrony Radiologicznej w Warszawie}{{Praktykant w Zakładzie Kontroli Dawek i Wzorcowania}{}}{}{}{\begin{itemize}
+    \item Przygotowywanie stanowiska pomiarowego i próbek na potrzeby badania stężenia radonu,
+    \item Obsługa licznika scyntylacyjnego.
+    \item Stworzenie bazy danych wyników pomiarów oraz analiza zebranych danych.
+    \item Praca z literaturą fachową.
+ \end{itemize}}  % arguments 3 to 6 can be left empty
+
+ \cventry{VII 2018 -- V 2019}{La Chica Sandwicheria}{{kucharz/pracownik obsługi sali}{}}{}{}{\begin{itemize}
+		\item Przygotowywanie półproduktów.
+		\item Przygotowywanie dań zgodnie z kartą.
+		\item Przygotowywanie zamówień dla dostawców posiłków (\textit{Uber, Wolt, Pyszne.pl})
+		\item Dbanie o czystość i porządek w lokalu.
+		\item Sporządzenie raportów dobowych.
+\end{itemize}}
+
+\section{Wykształcenie}
+
+\cventry{II 2019 – obecnie}{Politechnika Warszawska}{}{}{Fizyka techniczna, spec. fizyka medyczna – studia inżynierskie dzienne}{Praca magisterska (w trakcie): \textit{Analiza porównawcza sygnałów polisomnograficznych u osób zdrowych i pacjentów z zaburzeniami oddechu przy pomocy wybranych metod liniowych i nieliniowych}}
+
+\cventry{X 2015 – I 2019}{Politechnika Warszawska}{}{}{Fizyka techniczna, spec. fizyka medyczna – studia inżynierskie dzienne}{Praca inżynierska \textit{Pomiary zawartości radonu Rn-222 w wodzie przeznaczonej do spożycia z warszawskich studni oligoceńskich}. Dyplom inżyniera z oceną bardzo dobrą.}
+
+\newpage
+
+\section{Języki obce}
+
+\cvitem{angielski}{poziom sredniozaawansowany (B2),}
+\cvitem{rosyjski}{poziom podstawowy (A2).}
+
+\section{Komputer}
+{\begin{itemize}
+	\item Biegła znajomość pakietu statystycznego \textbf{SPSS},
+    \item Ponadpodstawowa znajomość pakietu \textbf{R},
+	\item Bardzo dobra znajomość \textbf{Microsoft Excel} (w tym \textbf{Excel VBA} oraz zastosowanie arkusza kalkulacyjnego w zagadnieniach symulacyjnych),
+    \item Bardzo dobra znajomość \textbf{Microsoft Access} (w tym tworzenie baz danych, \textbf{Access VBA}, \textbf{Access SQL}),
+	\item Programowanie w języku \textbf{SQL},
+	\item Znajomość pozostałych elementów Microsoft Office (\textbf{Word}, \textbf{PowerPoint}),
+	\item Składanie tekstu w \textbf{\LaTeX}.
+\end{itemize}}
+
+\section{Certyfikaty}
+{\begin{itemize}
+	\item \textbf{SPSS Technology Expert} – potwierdzenie znajomości metod ilościowych z wykorzystaniem pakietu SPSS,
+    \item \textbf{Cambridge Certificate in Advanced English}{,}
+	\item \textbf{TestDaF} (Deutsch als Fremdsprache).
+\end{itemize}}
+
+
+\section{Zainteresowania i hobby}
+{\begin{itemize}
+\item podróże,
+\item jazda na rowerze,
+\item rysunek odręczny,
+\item praca z drewnem.
+
+\end{itemize}}
+
+\begin{textblock}{160}(25,272)
+\noindent "Wyrażam zgodę na przetwarzanie moich danych osobowych w celu rekrutacji zgodnie z art. 6 ust. 1 lit. a Rozporządzenia Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (ogólne rozporządzenie o ochronie danych)."
+
+\end{textblock}
+
+
+
+
+
+\end{document}
+
+
