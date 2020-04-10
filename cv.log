@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.3.25)  26 MAR 2020 00:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.3.25)  10 APR 2020 21:16
 entering extended mode
 **./cv.tex
 (cv.tex
@@ -1044,7 +1044,7 @@ fg"
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
 \makecvheadpicturebox=\box65
-<foto.jpg, id=35, 99.581pt x 128.04924pt>
+<foto.jpg, id=31, 99.581pt x 128.04924pt>
 File: foto.jpg Graphic file (type jpg)
 <use foto.jpg>
 Package pdftex.def Info: foto.jpg  used on input line 53.
@@ -1062,25 +1062,25 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 55.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 95.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 94.
 [1
 
 {C:/Users/kamil/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./foto.jpg>
 ] [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 146.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 146.
  (cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 146.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 146.
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: 06CDA342851CEBBC0F670649F8CC1BF5;840.
+(rerunfilecheck)             Checksum: 41AEBC1093628A51052B10EB5AF03363;753.
  ) 
 Here is how much of TeX's memory you used:
- 23923 strings out of 480898
- 437118 string characters out of 2898309
- 734672 words of memory out of 3000000
- 39301 multiletter control sequences out of 15000+200000
- 582927 words of font info for 72 fonts, out of 3000000 for 9000
+ 23925 strings out of 480898
+ 437142 string characters out of 2898309
+ 733674 words of memory out of 3000000
+ 39300 multiletter control sequences out of 15000+200000
+ 583137 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  76i,12n,68p,797b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/kamil/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.en
@@ -1093,9 +1093,9 @@ public/lm/lmssbx10.pfb><C:/Users/kamil/AppData/Local/Programs/MiKTeX 2.9/fonts/
 type1/public/lm/lmsso10.pfb><C:/Users/kamil/AppData/Local/Programs/MiKTeX 2.9/f
 onts/type1/public/lm/lmsso9.pfb><C:/Users/kamil/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on cv.pdf (2 pages, 2208862 bytes).
+Output written on cv.pdf (2 pages, 2208567 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
- 20042 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 80 PDF objects out of 1000 (max. 8388607)
+ 9 named destinations out of 1000 (max. 500000)
+ 20034 words of extra memory for PDF output out of 20736 (max. 10000000)
 
