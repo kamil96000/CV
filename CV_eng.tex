@@ -1,0 +1,148 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2012 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt, a4paper, sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\usepackage[utf8]{inputenc}  
+%\usepackage{polski}
+\usepackage[english]{babel}
+\usepackage[absolute]{textpos}
+\setlength{\TPHorizModule}{1mm}
+\setlength{\TPVertModule}{1mm}
+\usepackage{blindtext} % Just to have some dummy text
+\moderncvtheme[purple]{classic} 
+\nopagenumbers{}                             
+\AtBeginDocument{\recomputelengths}
+
+
+%\renewcommand{\listitemsymbol}{-~}  % change the symbol for lists
+% color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+
+% adjust the page margins
+\usepackage[top=1.1cm, bottom=1.1cm, left=2cm, right=2cm]{geometry}
+% Largeur de la colonne pour les dates
+\setlength{\hintscolumnwidth}{2.9cm}
+
+%\setlength{\makecvtitlenamewidth}{9cm}      % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\firstname{Kamil}
+\familyname{Rozicki}
+                        
+\address{Sienna Street 66/38}{00-825 Warszawa}   
+\mobile{+ 48 516 409 275}                   
+%\phone{+33(0)4.76.24.10.36}       
+\email{kamil96000@gmail.com} 
+
+\photo[110pt][0.3pt]{foto.jpg}	% optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\title{Politechnika Warszawska, Wydział Fizyki}
+
+\AfterPreamble{\hypersetup{
+  pdfauthor={Kamil Rozicki},
+  pdftitle={Kamil Rozicki resumee},
+  pdfsubject={CV},
+  urlcolor=purple,
+}}
+
+\begin{document}
+\makecvtitle
+
+\section{Career goal}
+I am a 5th-year student of medical physics at the Faculty of Physics at the Warsaw University of Technology. Currently, I am researching electrophysiological signals and study in data analysis. During my studies, I did summer internships at the Central Laboratory for Radiological Protection in Warsaw and at the Institute of Neurology and Psychiatry in Warsaw. I collected and analyzed research results in both centers. I am a hard-working person, flexible and not afraid of challenges, as evidenced by my CV.
+
+\section{Experience}
+ 
+ \cventry{IX 2019 – III 2020}{Profimed Sp. z o.o.}{{Seller}{}}{}{}{\begin{itemize}
+    \item Active sale of products and equipment for oral hygiene,
+    \item Professional consultancy in the field of basic hygiene and prevention of oral cavity and dentition,
+    \item Making orders,
+    \item Handling the cash register and the SUBIEKT program,
+    \item Preparation of monthly cash and sales reports,
+    \item Caring for order in the workplace,
+ \end{itemize}}  % arguments 3 to 6 can be left empty
+
+\cventry{IX 2019}{Warsaw Institute of Psychiatry and Neurology}{{Trainee}{}}{}{}{\begin{itemize}
+		\item Getting to know the work environment at the Sleep Research Laboratory,
+		\item Participation in the EEG study of patients,
+		\item Work with patients in the Grass software,
+		\item Development of own script for analyzing signals from polysomnographic examination in MATLAB environment,
+\end{itemize}}  % arguments 3 to 6 can be left empty
+
+% \cventry{VII 2019 -- IX 2019}{Lodomania}{{kelner}{}}{}{}{\begin{itemize}
+%    \item Obsługa kelnerska,
+%    \item Obsług kasy fiskalnej i systemu POS.
+% \end{itemize}}  % arguments 3 to 6 can be left empty
+
+
+ \cventry{VIII 2018 -- IX 2018}{Central Laboratory for Radiological Protection in Warsaw}{{Trainee in Department of Dose Control and Calibration}{}}{}{}{\begin{itemize}
+    \item Working at a point for testing radon concentration,
+    \item Scintillation counter service,
+    \item Collecting samples, testing and processing data for publication,
+ \end{itemize}}  % arguments 3 to 6 can be left empty
+
+ \cventry{VII 2018 -- V 2019}{La Chica Sandwicheria}{{cook/bartender's help}{}}{}{}{\begin{itemize}
+		\item Work under time pressure,
+		\item Multitasking,
+		\item Preparing orders for meal suppliers (\textit{Uber Eats, Wolt, Pyszne.pl})
+		\item Caring for cleanliness and order in the premises.
+\end{itemize}}
+
+\section{Education}
+
+\cventry{II 2019 – nowadays}{Warsaw University of Technology}{}{}{Applied physics, spec. medical physics – second degree full-time studies}{Master thesis (under): \textit{Comparative analysis of polysomnographic signals between healthy individuals and patients with breathing disorders using linear and nonlinear methods.}}
+
+\cventry{X 2015 – I 2019}{Warsaw University of Technology}{}{}{Applied physics, spec. medical physics – engineering full-time studies}{Engineering thesis: \textit{Measurements of radon (Rn-222) concentration in drinking water from the Oligocene wells in Warsaw.}}
+
+\newpage
+
+\section{Foreign languages}
+
+\cvitem{English}{(B2)}
+\cvitem{Russian}{(A2)}
+
+\section{Skills}
+{\begin{itemize}
+	\item Fundamentals of programming in \textbf{C/C++}, 
+	\item Fundamental knowledge of advanced engineering tools i.e. \textbf{Gnumeric}, \textbf{OriginPro},
+	\item Programming in \textbf{MATLAB} (intermediate level), i.a. signal analysis, statistics,
+    \item Good knowledge of \textbf{R package},
+    \item Funtamentals in \textbf{Statistica} software,
+    \item Good knwoledge (\textbf{Git}) version control system,
+	\item Knowledge of MS Windows and MS Office in upper-intermediate level (\textbf{Word}, \textbf{Excel} \textbf{PowerPoint}),
+	\item Intermediate skills in \textbf{Linux},
+	\item Text submission in \textbf{\LaTeX}.
+	\item Category B \textbf{driving license},
+\end{itemize}}
+
+%\section{Certyfikaty}
+%{\begin{itemize}
+% \item
+%\end{itemize}}
+
+
+\section{Hobbies}
+{\begin{itemize}
+\item Alternative music,
+\item British literature,
+\item Digital photography,
+\item Architecture.
+
+\end{itemize}}
+
+\begin{textblock}{160}(25,272)
+\noindent „I agree to the processing of personal data provided in this document for realising the recruitment process pursuant to the Personal Data Protection Act of 10 May 2018 (Journal of Laws 2018, item 1000) and in agreement with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation)”.
+
+\end{textblock}
+
+
+
+
+
+\end{document}
+
+
