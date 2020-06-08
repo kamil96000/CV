@@ -17,6 +17,15 @@
 \moderncvtheme[purple]{classic} 
 \nopagenumbers{}                             
 \AtBeginDocument{\recomputelengths}
+\renewcommand*{\cventry}[7][.25em]{%
+	\cvitem[#1]{#2}{%
+		{\bfseries#3}%
+		\ifthenelse{\equal{#4}{}}{}{, {\slshape#4}}%
+		\ifthenelse{\equal{#5}{}}{}{, #5}%
+		\ifthenelse{\equal{#6}{}}{}{, #6}%
+		\strut%
+		\ifx&#7&%
+		\else{\newline{}\begin{minipage}[t]{\linewidth}\small#7\end{minipage}}\fi}}
 
 
 %\renewcommand{\listitemsymbol}{-~}  % change the symbol for lists
@@ -34,7 +43,7 @@
 \firstname{inż. Kamil}
 \familyname{Rozicki}
                         
-\address{ul. Sienna 66/38}{00-825 Warszawa}   
+%\address{ul. Sienna 66/38}{00-825 Warszawa}   
 \mobile{+ 48 516 409 275}                   
 %\phone{+33(0)4.76.24.10.36}       
 \email{kamil96000@gmail.com} 
