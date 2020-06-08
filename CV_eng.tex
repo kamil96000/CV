@@ -17,7 +17,15 @@
 \moderncvtheme[purple]{classic} 
 \nopagenumbers{}                             
 \AtBeginDocument{\recomputelengths}
-
+\renewcommand*{\cventry}[7][.25em]{%
+	\cvitem[#1]{#2}{%
+		{\bfseries#3}%
+		\ifthenelse{\equal{#4}{}}{}{, {\slshape#4}}%
+		\ifthenelse{\equal{#5}{}}{}{, #5}%
+		\ifthenelse{\equal{#6}{}}{}{, #6}%
+		\strut%
+		\ifx&#7&%
+		\else{\newline{}\begin{minipage}[t]{\linewidth}\small#7\end{minipage}}\fi}}
 
 %\renewcommand{\listitemsymbol}{-~}  % change the symbol for lists
 % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
@@ -85,7 +93,7 @@ I am a 5th-year student of medical physics at the Faculty of Physics at the Wars
     \item Collecting samples, testing and processing data for publication
  \end{itemize}}  % arguments 3 to 6 can be left empty
 
- \cventry{VII 2018 -- V 2019}{La Chica Sandwicheria}{{cook/bartender's help}{}}{}{}{\begin{itemize}
+ \cventry{VII 2018 -- V 2019}{La Chica Sandwicheria}{{Cook/Bartender's help}{}}{}{}{\begin{itemize}
 		\item Work under time pressure
 		\item Multitasking
 		\item Preparing orders for meal suppliers (\textit{Uber Eats, Wolt, Pyszne.pl})
